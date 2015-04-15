@@ -5521,5 +5521,216 @@ button.close {
 /*========================================
 =             APP CUSTOM                 =
 ========================================*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box; }
+
+html, body {
+  min-height: 100%;
+  height: 100%;
+  background-color: #fff; }
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: #333333; }
+
+.row {
+  margin-left: 0;
+  margin-right: 0; }
+
+/*navegador*/
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent; }
+
+.navbar-nav {
+  float: none;
+  text-align: right; }
+
+.navbar-nav li {
+  float: none;
+  display: inline-block; }
+
+.navbar-default .navbar-nav > li {
+  font-size: 20px; }
+
+.portada {
+  background-image: url(../img/img-home.png);
+  height: 89%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: -70px; }
+
+.logo img {
+  margin-left: 166px;
+  margin-top: 80px; }
+
+/*botons*/
+.es {
+  color: #7C7272;
+  background-color: transparent;
+  border-color: #B8B4AF; }
+
+.es, .btn-warning:hover, .btn-warning:focus, .btn-warning.focus, .btn-warning:active, .btn-warning.active, .open > .btn-warning.dropdown-toggle {
+  color: #7C7272;
+  background-color: transparent;
+  border-color: #B8B4AF; }
+
+.ingresar {
+  color: #fff;
+  background-color: #969696;
+  border-color: transparent; }
+
+.p-largo {
+  margin-right: 105px;
+  font-size: 25px;
+  text-align: -webkit-center;
+  margin-left: 100px;
+  margin-top: 31px;
+  color: #30C2E3; }
+
+.p-medium {
+  margin-right: 66px;
+  font-size: 17px;
+  text-align: -webkit-center;
+  margin-left: 100px;
+  color: gray; }
+
+.red {
+  margin-top: 24px;
+  font-size: 17px;
+  margin-left: 228px;
+  width: 176px;
+  background-color: #FF3A00;
+  border-color: transparent; }
+
+.btn-circular {
+  position: absolute;
+  bottom: 40px;
+  border-radius: 40px; }
+
+/*responsive*/
+.imagen-responsive {
+  width: 100%; }
+
+/* segunda seccion*/
+.metodologia {
+  background-color: white;
+  margin-top: 60px; }
+  .metodologia p {
+    font-size: 35px;
+    color: #30c2e3;
+    text-align: center; }
+  .metodologia .p-rojo {
+    color: red;
+    font-size: 30px; }
+  .metodologia .p-plomo {
+    font-size: 30px;
+    color: #615A5A;
+    text-align: center; }
+
+.img-red-izquierda {
+  margin-left: 316px;
+  position: absolute; }
+
+.img-red-derecha {
+  margin-left: 1044px;
+  bottom: -4px;
+  position: absolute; }
+
+.postulantes {
+  background-image: url(../img/img-02.png);
+  height: 100%;
+  background-size: 100% 92%;
+  background-repeat: no-repeat; }
+
+.circulo-grande {
+  background-color: #FF6A49;
+  border-radius: 50%;
+  width: 415px;
+  padding: 2%;
+  margin: 69px auto; }
+
+.circulo-grande:hover {
+  background-color: white; }
+
+.circulo-chico {
+  border: 2px dashed white;
+  border-radius: 50%;
+  height: 389px;
+  width: 389px; }
+  .circulo-chico p {
+    font-size: 23px;
+    color: #FFFFFF;
+    text-align: center;
+    visibility: visible; }
+  .circulo-chico .p-circulo {
+    margin-top: 113px; }
+
+.circulo-chico:hover {
+  background-image: url(../img/ilustraciones-personajes/ilustracion-26.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: white;
+  border: 2px dashed #FF6A49; }
+  .circulo-chico:hover p {
+    visibility: hidden; }
+
+.line-1 {
+  width: 175px;
+  height: 35px;
+  border-bottom: 2px dashed #EC6645;
+  -webkit-transform: translateY(10px) translateX(2px) rotate(-18deg);
+  position: absolute;
+  top: 226px;
+  left: 240px; }
+
+.line-2 {
+  width: 175px;
+  height: 35px;
+  border-bottom: 2px dashed #EC6645;
+  -webkit-transform: translateY(-10px) translateX(2px) rotate(18deg);
+  position: absolute;
+  bottom: 206px;
+  left: -102px; }
+
+.tex-1 h4 {
+  margin-top: 327px;
+  margin-left: 119px;
+  font-size: 25px;
+  color: #ff6a49; }
+.tex-1 p {
+  margin-left: 53px;
+  font-size: 20px;
+  color: #aba5a5;
+  margin-right: -69px; }
+
+.linea-vertical {
+  border-left: 2px dashed #EC6645;
+  height: 136px;
+  margin-left: 304px;
+  margin-top: -52px; }
+
+.tex-2 {
+  margin-left: 220px; }
+  .tex-2 h4 {
+    font-size: 25px;
+    color: #ff6a49; }
+  .tex-2 p {
+    font-size: 20px;
+    color: #aba5a5;
+    margin-left: -71px;
+    margin-right: 118px; }
+
+.tex-3 {
+  margin-top: 336px; }
+  .tex-3 h4 {
+    font-size: 25px;
+    color: #ff6a49; }
+  .tex-3 p {
+    margin-left: -122px;
+    font-size: 20px;
+    color: #aba5a5; }
 
 /*# sourceMappingURL=main.css.map */
