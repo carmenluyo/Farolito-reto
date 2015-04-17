@@ -9,7 +9,7 @@
 		<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
-		<header>
+		<header class="navegador hidden-xs">
 			<nav class="navbar navbar-default">
 			  <div class="container">
 			    <!-- Brand and toggle get grouped for better mobile display -->
@@ -37,6 +37,31 @@
 			  </div><!-- /.container-fluid -->
 			</nav>	
 		</header>
+		<header class="navegador2 hidden-md hidden-lg">
+			<nav class="navbar navbar-default">
+			  <div class="container">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header navegacion-2">
+			    	<div class="button button-dos">
+								<button type="button" class=" button-2 btn btn-danger">Crea tu perfil</button>
+							</div>
+			      <button type="button" class="navbar-2 navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			    </div>
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+			    	<ul class=" nav navbar-nav">
+			    		<li><a href="#">Sobre nosotros </a></li>| 
+			      		<li><a href="#">Oportunidades</a></li>
+			      	</ul>
+			    </div><!-- /.navbar-collapse -->
+			  </div><!-- /.container-fluid -->
+			</nav>	
+		</header>
 		<section class="portada hidden-xs">
 			<div class="container-fluid">
 					<div class="row">
@@ -57,14 +82,11 @@
 			</section>
 			<section class="portada2 hidden-md hidden-lg">
 			<div class="container-fluid">
-		 		<div class="logo">
-					<img src="img/iconos/iconos-20.png">
+		 		<div class="logo-2">
+					<img src="img/iconos/logo-farolito-114x40.png">
 				</div>
 				<p class="p-largo">Identificamos al mejor talento y maximizamos su potencial</p>
 				<p class="p-medium">Con una evalucacion rigurosa, tanto de postulantes como de puestos laborales,identificamos la sinergia óptima entre trabajador y empresa aumentando la productividad , la permanencia y la felicidad de los trabajadores</p>
-				<div class="button">
-					<button type="button2" class=" red btn btn-danger">Crea tu perfil</button>
-				</div>
 				<img  class="imagen-responsive"src="img/foto-landing-09.png">
 			</div>
 			</section>
@@ -114,7 +136,6 @@
 					</div>
 					<div class="col-md-3">
 						<div class="line-2">
-
 						</div>
 						<div class="tex-3">
 							<h4>
@@ -126,16 +147,94 @@
 						</div>
 					</div>
 				</div>
+				<div class="ver-mas">
+					<center><button type="button" class="btn btn-info">Ver más</button></center>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<center><img  class="btn-circulo-2"src="img/iconos/iconos-15.png"></center>
+					</div>
+				</div>
 			</section>
 			<section class="postulantes">
-				<p>Farolito para postulantes</p>
-			</section>
+          <div class="container center">
+             <div class="farolito">
+                <h1>Farolito para postulantes</h1>
+                <h3>Alcanza tu potencial profesional con Farolito</h3>
+             </div>
+            <div class="row">
+              <div class="col-md-2">
+                 <ul class="numeros">
+                  <li> <img src="img/iconos/numero-1.png"></li>
+                  <li> <img src="img/iconos/numero-2.png"></li>
+                  <li> <img src="img/iconos/numero-3.png"></li>
+                 </ul>
+              </div>
+              <div class="col-md-3">
+                 <ul class="titulos">
+                  <li><h3>Crea tu perfil</h3></li>
+                  <li><h3>Postula a oportunidades laborales</h3></li>
+                  <li><h3>Mejora tu perfil profesional</h3></li>
+                 </ul>
+              </div>
+              <div class="col-md-2">
+                 <ul class="imagenes">
+                  <li><img src="img/iconos/iconos-09.png"></li>
+                  <li><img src="img/iconos/iconos-10.png"></li>
+                  <li><img src="img/iconos/iconos-11.png"></li>
+                 </ul>
+              </div>
+              <div class="line4"></div>
+              <div class="line5"></div>
+              <div class="line6"></div>
+              <div class="col-md-5">
+                 <ul class="descripcion">
+                  <li><h3>Ingresa tus datos en nuestra página y forma parte de nuestra comunidad.</h3></li>
+                  <li><h3>Conoce en minutos si cumples con los requisitos para el puesto. Te enviamos correos con las oportunidade.</h3></li>
+                  <li><h3> Participa en uno de nuestros cursos de Career Coaching y aprende maneras de superar desafíos y salir adelante en el ambiente laboral.</h3></li>
+                 </ul>
+              </div>
+            </div>
+         </div>
+         <div class="ver-oportunidades">
+							<center><button type="button" class="btn btn-info">Ver oportunidades</button></center>
+					</div>
+					<div class="row">
+					<div class="col-md-12">
+						<center><img  class="btn-circulo-2"src="img/iconos/iconos-15.png"></center>
+					</div>
+				</div>
+      </section>
+      <section class="farolito-para-empresas">
+      	<h3>Farolito para empresas</h3>
+      	<h2>Contrata al mejor talento</h2>
+     		<hr></hr>
+     		<p>Somos el proveedor estrategicos para bajar la rotacion y subir la</p>
+     		<p>productividad de los trabajadores</p>
+     		<div class="row">
+     			<div class="col-md-4">
+     				<img src="img/iconos/iconos-03.png">
+     				<h2>Evaluar postulantes</h2>
+     				<p>El exámen farolito identifica a las personas que no solamente harán bien el trabajo, si no que permaneceran más tiempo en él.</p>
+     				<span>más información</span>
+     			</div>
+     			<div class="col-md-4">
+     				<img src="img/iconos/iconos-04.png">
+     				<h2>Diagnóstico de la rotación</h2>
+     				<p>Revisión de datos manejados por su empresan para identificar a los contribuidores escondidos de la rotación.</p>
+     			</div>
+     			<div class="col-md-4">
+     				<img src="img/iconos/iconos-05.png">
+     				<h2>Coaching laboral</h2>
+     				<p>Asesoría dirigida a nuevos trabajadores durante el proceso de inserción.</p>
+     			</div>
+     		</div>
+      </section>
 		</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<!-- Javascripts de Bootstrap -->
+	<!--<script src="javascript/b3/collapse.js"></script>
+	<script src="javascript/b3/transition.js"></script>-->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-		<!-- Javascripts de Bootstrap -->
-		<script src="javascript/b3/collapse.js"></script>
-		<script src="javascript/b3/transition.js"></script>
 	</body>	
 </html>	
