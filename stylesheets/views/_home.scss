@@ -379,9 +379,6 @@ body {
   margin-bottom: 70px;
 }
 .farolito-para-empresas{
-  padding: 0 10%;
-  margin-left: 0;
-  margin-right: 0;
   text-align: center;
 
 
@@ -419,6 +416,263 @@ body {
 }
 .btn-circulo-3{
   border-radius: 100%;
-  position: absolute;
   margin-top: 30;
+  margin-bottom: -33px;
+
+}
+.titulo{
+      color: #EFEC29;
+    }
+.farolito-para-educacion{
+  text-align: center;
+  background-color: #77d248;
+    img{
+      border-radius: 50px;
+    }
+  h3{
+    text-align: center;
+    padding: 10% 0 0;
+    color: white;
+    font-size: 35px;
+  }
+  h4{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+  }
+  hr{
+  border-top: 2px dashed white;
+  width: 477px;
+}
+  p{
+    text-align: center;
+    font-size: 18px;
+    color: white;
+  }
+  .col-md-4{
+      margin-top: 30px;
+  }
+  span{
+    color: rgb(100, 199, 226);
+  }
+}
+.boton-contactanos{
+  margin-top: 24px;
+  font-size: 17px;
+  background-color: #FF3A00;
+  border-color: transparent;
+}
+.boton-contactanos-educacion{
+  margin-top: 24px;
+  font-size: 17px;
+  background-color: transparent;
+  border-color: white;
+}
+.btn-circulo-3{
+  border-radius: 100%;
+  margin-top: 30;
+}
+.lista-oportunidades{
+  background-image: url(../img/img-03.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+    height: 142%;
+    .row{
+        padding: 0 20%;
+    }
+    h4{
+      color: rgb(91, 231, 249);
+      text-decoration: underline;
+    }
+    h3{
+      text-align: center;
+      color: rgb(189, 188, 188);
+      margin-top: 82px;
+      font-size: 30px;
+    }
+    hr{
+        border-top: 2px dashed #BDBCBC;
+    }
+}
+.boton-ver-mas{
+  background-color: transparent;
+  border-color:red;
+  color: red;
+}
+.boton-ver-izquierda{
+  text-align: right;
+}
+.btn-ver-todos{
+  text-align: center;
+}
+.btn-ver{
+  background-color: gray;
+  color: white;
+  margin-bottom: 35px;
+  margin-top: 35px;
+  border-color: transparent;
+}
+.ultimo{
+  text-align: center;
+}
+
+.texto{
+  height: 100px;
+}
+
+.lorem{
+    background-color: rgb(210, 205, 203);
+    padding: 30px;
+    height: 195%;
+}
+.lorem:hover{
+  background-color: rgb(255, 193, 13);
+}
+.btn-circulo-4{
+    margin-top: 113px;
+    border-radius: 100%;
+}
+.blog-farolito{
+  h3{
+    padding: 6% 0 0;
+    text-align: center;
+    padding: 6% 0 0;
+  }
+  img{
+      border-radius: 50px;
+  }
+  p{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 18px;
+  }
+}
+.img-farolito{
+    text-align: center;
+    margin-bottom: -20px;
+}
+.row-2{
+    height: 40%;
+    padding: 0% 145px;
+}
+.ver-todos{
+  width: 160px;
+  height: 45px;
+  margin-top: 70px;
+}
+.btn-circulo-4{
+  border-radius: 100%;
+  margin-bottom: -33px;
+  margin-top: -25px;
+}
+a {
+  color: #3B4147;
+  text-decoration: none;
+}
+a:hover {
+  color: #3B4147;
+  text-decoration: none;
+}
+/*formulario*/
+
+.contacto {
+  text-align: center;
+  padding: 25px;
+  font-size: 25px;
+  padding-left: 65px;
+  padding-bottom: 19px;
+  color: black;
+}
+
+.formulario {
+  border: solid 0px #EFEAEA;
+  margin: 0 auto;
+  width: 580px;
+  padding-top: 15px;
+}
+.form{
+  text-align: center;
+}
+
+.formulario h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.formulario label {
+  display: block;
+  text-align: right;
+  width: 140px;
+  float: left;
+  padding: 10px;
+
+  font-family: 'Roboto', sans-serif;
+}
+
+.formulario .detalle {
+  color: #666666;
+  display: block;
+  font-size: 11px;
+  font-weight: normal;
+  text-align: right;
+  width: 140px;
+}
+
+.formulario input {
+  float: left;
+  font-size: 12px;
+  padding: 4px 32px;
+  border: solid 1px #CCD7D8;
+  width: 52%;
+  margin: 2px 0 20px 10px;
+  height: 40px;
+      margin-left: 138px;
+
+}
+form .form {
+  width: 485px;
+  height: 298px;
+}
+
+input .name {
+  height: 35px;
+}
+
+input#password.mensaje {
+  height: 111px;
+}
+
+textarea {
+  width: 52%;
+  margin: 9px;
+  resize: none;
+  padding: 25px 33px;
+  border: 1px solid #ccd7d8;
+}
+.button {
+  padding-left: 2px;
+  margin-top: 10px;
+  border-top-width: 0px;
+  margin-left: 21%;
+}
+form {
+  margin-bottom: 0em;
+}
+.consulta{
+  background-color: rgb(189, 188, 188);
+}
+.footer{
+  background-color: gray;
+  padding-left: 30px;
+    img{
+        border-radius: 50px;
+        float: left;
+          padding: 8px;
+        margin-top: -22px;
+    }
+    h5{
+      text-align: right;
+      color: white;
+      margin-right: 36px;
+    }
 }
