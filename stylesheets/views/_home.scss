@@ -22,6 +22,11 @@ body {
   background-color: transparent;
   border-color: transparent;
 }
+.navegacion{
+  background-color: blue;
+  border-color: transparent;
+  position: fixed;
+}
 .navbar-nav {
   float: none;
   text-align: right;
@@ -34,8 +39,11 @@ body {
   font-size: 20px;
 }
 .navbar-2{
-    margin-right: 489px;
-    margin-top: -48px;
+  float: left;
+  margin-left: 20px;
+}
+.collapse{
+    height: 100%;
 }
 .navegacion-2{
   background-color: rgb(242, 253, 255);
@@ -59,8 +67,8 @@ body {
 }
 .logo-2{
   margin-top: 35px;
+  text-align: center;
     img{
-      margin-left: 166px;
       height: 61px;
     }
 }
@@ -106,10 +114,8 @@ body {
   color: #30C2E3;
 }
 .p-medium {
-  margin-right: 66px;
   font-size: 17px;
   text-align: -webkit-center;
-  margin-left: 100px;
   color: gray;
 }
 .red {
@@ -131,7 +137,9 @@ body {
 .imagen-responsive{
   width: 100%;
 }
+
 /* segunda seccion*/
+
 .metodologia{
   background-color: white;
   margin-top: 60px;
@@ -266,6 +274,32 @@ body {
 
     }
 }
+
+.metodologia-2{
+  padding-top: 40px;
+    p{
+      font-size:35px;
+      color: rgb(48, 194, 227);
+      text-align: center;
+      margin: 0 0 -12px;
+      padding: 35px;
+    }
+    .tex-2-responsive p {
+    font-size: 18px;
+    color: #aba5a5;
+    text-align: center;
+    margin: 17px 0 -12px;
+    letter-spacing: 0.05em;
+   }
+   h4 {
+    font-size: 25px;
+    color: #ff6a49;
+    text-align: center,
+  }
+  hr{
+      border-top: 2px dashed #FF6A49;
+  }
+}
 .btn-circulo-2{
   border-radius: 100%;
   position: absolute;
@@ -274,13 +308,44 @@ body {
 }
 .postulantes{
   background-image: url(../img/img-02.png);
-  /*background-size: 100% 92%;*/
   background-repeat: no-repeat;
   .row{
         padding: 0 10%;
         margin-left: 0;
         margin-right: 0;
      }
+}
+.postulantes-2{
+  color: white;
+  background-image: url(../img/img-02.png);
+  background-repeat: no-repeat;
+  background-size: 400%;
+    h1{
+      text-align: center;
+      color: white;
+      padding: 6%;
+    }
+    li{
+      list-style: none;
+      img{
+          border-radius: 100px;
+          height: 70px;
+          margin-top: 25px;
+      }
+    }
+    hr{
+        border-top: 2px dashed #FFFFFF;
+        text-align: center;
+        width: 500px;
+    }
+    h3{
+      margin-top: 0px;
+      font-size: 25px;
+    }
+}
+.numeros-responsive{
+  text-align: center;
+    padding: 5%;
 }
 .farolito {
   text-align: center;
@@ -298,12 +363,12 @@ body {
 }
 .numeros{
   list-style: none;
-  margin-top: -66px;
+  margin-top: -45px;
   li{
     margin: 160% 0;
   }
   img{
-      width: 96px;
+        width: 65px;
   }
 }
 .titulos{
@@ -337,7 +402,7 @@ body {
    border-bottom: 3px dashed #F6F3F2;
   -webkit-transform: translateY(32px) translateX(490%) rotate(90deg);
   position: absolute;
-  bottom: -233%;
+  bottom: -235%;
   left: -18px;
   -moz-transform: translateY(10px) translateX(42px) rotate(53deg);
   width: 123px;
@@ -347,7 +412,7 @@ body {
    border-bottom: 3px dashed #F6F3F2;
   -webkit-transform: translateY(276px) translateX(490%) rotate(90deg);
   position: absolute;
-  bottom: -233%;
+  bottom: -236%;
   left: -18px;
   -moz-transform: translateY(10px) translateX(42px) rotate(53deg);
   width: 123px;
@@ -357,7 +422,7 @@ body {
    border-bottom: 3px dashed #F6F3F2;
   -webkit-transform: translateY(513px) translateX(490%) rotate(90deg);
   position: absolute;
-  bottom: -233%;
+  bottom: -236%;
   left: -18px;
   -moz-transform: translateY(10px) translateX(42px) rotate(53deg);
   width: 123px;
@@ -384,7 +449,6 @@ body {
 
   h3{
     text-align: center;
-    padding: 10% 0 0;
     color: rgb(255, 106, 73);
     font-size: 35px;
   }
@@ -394,7 +458,7 @@ body {
     color: rgb(189, 188, 188);
   }
   hr{
-  border-bottom: 2px dashed rgb(255, 106, 73);
+  border-top: 2px dashed #ff6a49;
   width: 477px;
 }
   p{
@@ -409,7 +473,8 @@ body {
   }
 }
 .boton-contactanos{
-    margin-top: 24px;
+  margin-bottom: 30px;
+  margin-top: 24px;
   font-size: 17px;
   background-color: #FF3A00;
   border-color: transparent;
@@ -463,6 +528,7 @@ body {
   border-color: transparent;
 }
 .boton-contactanos-educacion{
+  margin-bottom: 30px;
   margin-top: 24px;
   font-size: 17px;
   background-color: transparent;
@@ -528,10 +594,7 @@ body {
 .lorem:hover{
   background-color: rgb(255, 193, 13);
 }
-.btn-circulo-4{
-    margin-top: 113px;
-    border-radius: 100%;
-}
+
 .blog-farolito{
   h3{
     padding: 6% 0 0;
@@ -562,8 +625,8 @@ body {
 }
 .btn-circulo-4{
   border-radius: 100%;
-  margin-bottom: -33px;
-  margin-top: -25px;
+  margin-top: 100px;
+  margin-bottom: -30px;
 }
 a {
   color: #3B4147;
